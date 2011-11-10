@@ -1,0 +1,18 @@
+/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
+/* zurb.com */
+/* humanstxt.org */
+
+/* Foundation Wordpress theme was developed using Foundation awesome work by Matt Bee, todayishould.com, matt@todayishould.com */
+
+                            
+/* TEAM */      
+Your title: Matt Bee            
+Site: todayishould.com
+Email: matt@todayishould.com
+Twitter: @todayishould @mattbee
+Location: London, UK
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: jQuery, Orbit, Reveal
+Software: Coda, SVN, Photoshop

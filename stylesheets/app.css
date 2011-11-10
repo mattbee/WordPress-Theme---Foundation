@@ -1,0 +1,149 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+
+
+/* -----------------------------------------
+   Header Styles
+----------------------------------------- */
+header {
+	padding-top: 10px;
+}
+
+
+/* -----------------------------------------
+   Menu Styles
+----------------------------------------- */
+#nav {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 18px;
+}
+#nav ul {
+	float: left;
+	margin: 0;
+}
+#nav ul li {
+	float: left;
+	padding: 0;
+	position: relative;
+	margin: 0;
+}
+#nav ul li a {
+	display: block;
+	padding: 10px;
+}
+#nav ul li ul {
+	background: #fff;
+	float: none;
+	padding: 0;
+	position: absolute;
+	left: -99999em;
+	min-width: 190px;
+}
+#nav ul li ul li {
+	background: #fff;
+	padding: 0;
+}
+
+#nav ul li ul {
+	background: #fff;
+	padding: 0;
+	margin: 0;
+	z-index: 90;
+}
+#nav ul li:hover ul {
+	left: auto;
+}
+
+.current_page_item a {
+	color: #000;
+}
+#nav ul li ul a {
+	color: #2A85E8;
+}
+
+#nav ul li ul  {
+	color: #000;
+	box-shadow: 0px 2px 4px #ddd;
+}
+#nav ul li ul li  {
+
+}
+#nav ul li ul a:hover {
+	color: #000;
+}
+
+/* Mobile Menu - make block */
+@media only screen and (max-width: 767px) {
+	#nav ul {
+		float: none;
+	}
+	#nav ul li {
+		float: none;
+		padding: 0;
+		margin-bottom: 4px;
+	}
+}
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+
+.widget-area h3 {
+	font-size: 15px;
+	font-size: 2rem;
+}
+.widget-area ul ul, .widget-area ol ol {
+    margin: 4px 0 5px 0px;
+}
+
+.widget-area ul ul li, .widget-area ol ol li {
+    margin: 0 0 3px 0px;
+}
+
+.intro h2 {
+	font-size: 24px;
+	padding-bottom: 18px;
+	border-bottom: 2px solid #ddd;
+}
+
+.alignright {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.alignleft {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+footer .row {
+	margin: 18px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
