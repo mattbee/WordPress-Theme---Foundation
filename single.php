@@ -20,8 +20,16 @@ get_header();
 				<?php the_content(); ?>
 			</div><!-- .entry-content -->
 
-	
+			
+			
 		 	<!-- Display a comma separated list of the Post's Categories. -->
+		 	<p class="postmetadata">Posted in <?php the_category(', '); ?></p>
+		 	
+		 	<!-- Show comments -->
+		 	<div class="commentlist"><?php wp_list_comments(array('style' => 'div')); ?></div>
+		 
+			<!-- Show comments -->
+		 	<div class="commentform"><?php comment_form(); ?> </div>
 		 
 			<!-- Stop The Loop (but note the "else:" - see next line). -->
 			<?php endwhile; else: ?>

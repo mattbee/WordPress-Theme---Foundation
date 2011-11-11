@@ -97,6 +97,9 @@ header {
    Shared Styles
 ----------------------------------------- */
 
+nav {
+	border-top: 1px solid #ddd;
+}
 
 .widget-area h3 {
 	font-size: 15px;
