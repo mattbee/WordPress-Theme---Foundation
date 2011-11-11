@@ -26,10 +26,14 @@ get_header();
 		 	<p class="postmetadata">Posted in <?php the_category(', '); ?></p>
 		 	
 		 	<!-- Show comments -->
-		 	<div class="commentlist"><?php wp_list_comments(array('style' => 'div')); ?></div>
+		 	<div class="commentlist">
+		 		<?php comments_template(); ?>
+		 	</div>
 		 
-			<!-- Show comments -->
-		 	<div class="commentform"><?php comment_form(); ?> </div>
+			<!-- Show comment form -->
+		 	<div class="commentform">
+		 		<?php // comment_form(); ?>
+		 	</div>
 		 
 			<!-- Stop The Loop (but note the "else:" - see next line). -->
 			<?php endwhile; else: ?>

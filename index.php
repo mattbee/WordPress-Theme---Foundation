@@ -56,6 +56,8 @@ get_header();
 					<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'foundationtheme' ), 'after' => '</div>' ) ); ?>
 				</div><!-- .entry-content -->
 			<?php endif; ?>
+			
+			<p><a href="<?php the_permalink() ?>"><?php comments_number('No Responses', 'One Response', '% Responses' );?></a></p>
 	
 		 	<!-- Display a comma separated list of the Post's Categories. -->
 		 	<?php
